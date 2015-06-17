@@ -1,0 +1,40 @@
+button{
+  border-radius: 10px;
+  font-size: 30px;
+  background-color: #25B3F8;
+  margin: auto;
+  margin-top: 50px;
+  border: 4px dashed #93C8DF;
+  padding: 100 100 100 100px;
+  margin: 30px 30px 30px 30px;
+}
+div{
+  margin: 50px 100px 50px 50px;
+	font-size: 30px;
+	width: 50px;
+  font-family: cursive;
+}
+
+input{
+	width: 40px;
+	height: 40px;
+  border: 2px dashed #a866ee; 
+}
+
+.list{
+  font-size: 30px;
+  margin-left: 50px;
+  font-family: Comic Sans MS;
+}
+
+#button{
+  border-radius: 10px;
+  font-size: 30px;
+  background-color: #25B3F8;
+  margin: auto;
+  margin-top: 50px;
+  border: 4px dashed #93C8DF;
+  padding: 100 100 100 100px;
+  margin: 30px 30px 30px 30px;
+  width: 200px;
+}
