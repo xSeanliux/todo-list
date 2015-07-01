@@ -11,6 +11,8 @@ document.body.style.backgroundColor = colorHex;
 //background color end. 
 
 
+var funcCalled = 0
+
 function getValue(){
     var x=document.getElementById("myHeader");
     var node = document.createElement("LI");
@@ -20,16 +22,19 @@ function getValue(){
     node.innerHTML = n;
     document.getElementById("myList").appendChild(node);
     var c = document.getElementById("checkbox").cloneNode(true);
+    funcCalled = funcCalled++;
+
    
 }
 
 
 function deleteObject(){
 
-    $("#myList #item").remove('#item');
+    $("#myList #item").remove();
 
       
 
     
 }
+
 
